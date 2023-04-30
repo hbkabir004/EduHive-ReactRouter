@@ -19,11 +19,11 @@ export const routes = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home></Home>
+                element: <Home/>
             },
             {
                 path: '/blog',
-                element: <Blog></Blog>
+                element: <Blog/>
             },
             {
                 path: '/courses/:id',
@@ -32,15 +32,15 @@ export const routes = createBrowserRouter([
             },
             {
                 path: '/signin',
-                element: <SignIn></SignIn>
+                element: <SignIn/>
             },
             {
                 path: '/signup',
-                element: <Registration></Registration>
+                element: <Registration/>
             },
             {
                 path: '/courses',
-                element: <Courses></Courses>,
+                element: <Courses/>,
             },
             {
                 path: '/courses/category/:id',
@@ -54,11 +54,11 @@ export const routes = createBrowserRouter([
             },
             {
                 path: '/faq',
-                element: <FAQ></FAQ>
+                element: <FAQ/>
             },
             {
                 path: '*',
-                element: <ErrorPage></ErrorPage>
+                element: <ErrorPage/>
             },
         ]
     },
